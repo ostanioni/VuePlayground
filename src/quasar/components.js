@@ -1,0 +1,35 @@
+import {
+  //QLayout,
+  QPageContainer,
+  QPage,
+  QLayoutHeader,
+  QLayoutFooter,
+  QLayoutDrawer,
+  QPageSticky,
+  QItem,
+  QItemSide,
+  QItemMain,
+  QList,
+  QListHeader,
+  QBtn,
+  QToolbarTitle,
+  QToolbar
+}  from 'quasar'
+export default [
+  QLayout,
+  QPageContainer,
+  QPage,
+  QLayoutHeader,
+  QLayoutFooter,
+  QLayoutDrawer,
+  QPageSticky,
+  QItem,
+  QItemSide,
+  QItemMain,
+  QItemSide,
+  QList,
+  QListHeader,
+  QBtn,
+  QToolbarTitle,
+  QToolbar
+]
