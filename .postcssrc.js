@@ -1,4 +1,5 @@
 const plugins = [
+  require('postcss-grid-kiss'),
   require('autoprefixer')
 ]
 
