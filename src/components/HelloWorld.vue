@@ -1,8 +1,7 @@
 <template>
-  <q-page class="flex flex-center">
+  <div>
     {{ $t("message.404") }}
-    <img alt="Quasar logo" src="../assets/logo.png">
-  </q-page>
+  </div>
 </template>
 
 <style>
