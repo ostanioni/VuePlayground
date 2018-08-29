@@ -1,6 +1,7 @@
 <template>
   <div>
     {{ $t("message.404") }}
+    <list></list>
   </div>
 </template>
 
@@ -8,7 +9,11 @@
 </style>
 
 <script>
+import List from '@/components/List'
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  components:{
+    List
+  }
 }
 </script>
