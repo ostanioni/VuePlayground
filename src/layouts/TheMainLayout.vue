@@ -10,7 +10,7 @@
   <main>
     <router-view></router-view>
   </main>
-  <footer>
+  <footer class="seriousError">
     It's The Footer
   </footer>
 </div>
@@ -24,25 +24,27 @@ export default {
   }
 }
 </script>
-<style lang="css">
+<style lang="scss">
+@media screen and (max-width: 768px) and (min-width: 0px){
 .xpeH {
 	grid-kiss:
-		"+-------------------------------+      "
-    "|               v               |      "
-    "|           > header            |100px "
-    "|                               |      "
-		"+-------------------------------+------"
-		"                                 10px  "
-		"+----------+  +-----------------+------"
-		"| .sidebar |  |     < main >    | auto "
-		"+----------+  +-----------------+------"
-		"                                  100px"
-		"+-------------------------------+------"
-		"|             ^                 |      "
-    "|         > footer <            | 60px "
-    "|             v                 |      "
-    "+-------------------------------+      "
-    "|   20%    |  |      80%        |      "
+		"+-------------------------------+--------"
+    "|               v               |        "
+    "|           > header            |  100px "
+    "|                               |        "
+		"+-------------------------------+--------"
+		"                                   10px  "
+		"+----------+  +-----------------+--------"
+		"| .sidebar |  |     < main >    |  auto  "
+		"+----------+  +-----------------+--------"
+		"                                   50px  "
+		"+-------------------------------+--------"
+		"|             ^                 |        "
+    "|         > footer <            |  60px  "
+    "|             v                 |        "
+    "+-------------------------------+--------"
+    "|   20%    |  |      80%        |        "
+}
 }
 header{
   border: 1px solid black;
@@ -55,5 +57,13 @@ main{
 }
 footer{
   border: 1px solid black;
+}
+.error {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+.seriousError {
+  @extend .error;
+  border-width: 3px;
 }
 </style>
