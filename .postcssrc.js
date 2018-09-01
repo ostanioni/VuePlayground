@@ -1,15 +1,14 @@
+const devMode = process.env.NODE_ENV !== 'production';
+const GridKissParams = {
+  grid: true,
+  optimize: true,
+  sourceMap: true
+}
 const plugins = [
   require('postcss-grid-kiss'),
-  require('autoprefixer')
+  require('autoprefixer'),
+  require('cssnano')
 ]
-/*
-if (process.env.QUASAR_RTL) {
-  plugins.push(
-    require('postcss-rtl')({})
-  )
-}
-*/
-
 module.exports = {
   plugins
 }

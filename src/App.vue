@@ -2,8 +2,7 @@
 <the-main-layout></the-main-layout>
 </template>
 <script>
-if(console) console.clear()
-import TheMainLayout from '@/layouts/TheMainLayout.vue'
+import TheMainLayout from '@/layouts/TheMainLayout';
 export default {
   name: 'LayoutDefault',
   components: {
@@ -19,5 +18,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
