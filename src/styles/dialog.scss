@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 768px) and (min-width: 0px){
+
+}
+.dialogBackground {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-self: center;
+  align-self: center;
+  opacity: 10%;
+  background-color: black;
+  z-index: 10;
+}
+.dialogWindow {
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+  grid-template-columns: 1fr;
+}
+.dialogWindowHeader {
+
+}
+#grid {
+  display: grid;
+  grid-template-areas:
+  "header"
+  "content"
+  "footer";
+  grid-gap: 1.0em;
+  border: 1px solid;
+}
+  #header {
+    grid-area: header;
+    justify-self: left;
+    align-self: center;
+  }
+  #content {
+    grid-area: content;
+    justify-self: left;
+    align-self: center;
+  }
+  #footer {
+    grid-area: footer;
+    justify-self: right;
+    align-self: center;
+  }

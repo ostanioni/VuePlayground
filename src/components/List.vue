@@ -100,7 +100,7 @@ export default {
 <style lang="stylus" scoped>
 .ar-transition
   transition-property: transform, color
-  transition-duration: 200ms
+  transition-duration: 50ms
   transition-timing-function: ease-in
   transition-delay: 50ms  
 @media screen and (max-width: 768px) and (min-width: 0px)

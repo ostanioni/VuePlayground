@@ -5,9 +5,9 @@ const GridKissParams = {
   sourceMap: true
 }
 const plugins = [
-  require('postcss-grid-kiss')({optimize: true}),
+  require('postcss-grid-kiss')({ grid: true, optimize: true, }),
+  require('cssnano')({ preset: [ "advanced", { "discardComments": {"removeAll": true} } ] }),
   require('autoprefixer')({grid: true}),
-  require('cssnano')({preset: 'default'})
 ]
 
 module.exports = {
@@ -15,3 +15,16 @@ module.exports = {
   parser: 'postcss-scss',
   plugins,
 }
+/**
+ * 
+ * require('autoprefixer')({grid: true}),
+ module.exports = {
+   plugins: {
+    'postcss-import': {},
+    'postcss-preset-env': {},
+    'cssnano': { 
+      "preset": [ "advanced", { "discardComments": {"removeAll": true} } ]
+    }
+  }
+ }
+ */
