@@ -13,6 +13,7 @@
   </div>
   <main>
     <router-view></router-view>
+    <C></C>
   </main>
   <footer class="seriousError">
     It's The Footer
@@ -24,6 +25,7 @@
 <script>
 import backToTop from '@/components/top.vue'
 import cnvs from '@/components/Canvas2D/cnvs.vue'
+import C from '@/components/Code/C.vue'
 export default {
   data(){
     return{
@@ -32,7 +34,8 @@ export default {
   },
   components: {
     backToTop,
-    cnvs
+    cnvs,
+    C
   }
 }
 </script>

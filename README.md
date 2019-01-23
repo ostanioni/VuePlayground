@@ -1,5 +1,7 @@
 # WorksAndDays
-
+```
+VueJS project
+```
 ## Project setup
 ```
 yarn install
