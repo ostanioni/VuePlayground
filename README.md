@@ -1,4 +1,4 @@
-# works-and-days
+# Works-And-Days
 
 ## Project setup
 ```
@@ -7,14 +7,17 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
+yarn build
 ```
-
+## Project serve from /dist folder after 'build'
+```
+yarn install
+```
 ### Run your unit tests
 ```
 yarn run test:unit
