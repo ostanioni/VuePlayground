@@ -1,6 +1,6 @@
 <template>
 <div>
-  <pre class="code_C">
+  <pre class="code_C" @contextmenu="(e)=>e.preventDefault()">
   #include &lt;stdio.h&gt;
   int main(int argc, char *argv[]) {
     printf("Hello from C component!");
