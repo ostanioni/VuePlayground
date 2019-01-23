@@ -1,4 +1,4 @@
-# Works-And-Days
+# WorksAndDays
 
 ## Project setup
 ```
