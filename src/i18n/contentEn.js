@@ -1,11 +1,11 @@
 export default [      
   {"part": "1", //  Часть 1 
-     "header": "Анализ",
+     "header": "Fundamentals",
      "parts":[
           {
               "id":"sofac-1-1",
               "No":"1",
-              "caption":"Введение",
+              "caption":"Introduction",
               "chapters":[
                   "Algorithms",
                   "A Sample Problem - Connectivity",
