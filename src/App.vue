@@ -1,12 +1,13 @@
 <template>
-<the-main-layout></the-main-layout>
+<TheLayout/>
 </template>
 <script>
-import TheMainLayout from '@/layouts/TheMainLayout';
+import TheLayout from '@/layouts/TheLayout';
 export default {
   name: 'LayoutDefault',
   components: {
-    TheMainLayout
+    // TheMainLayout,
+    TheLayout
   },
   data () {
     return {

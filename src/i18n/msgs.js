@@ -8,6 +8,11 @@ const messages = {
       404: 'i18n-404'
     }
   },
+  ru: {
+    message: {
+      AxiosError: 'Ошибка загрузки ...'
+    }
+  },
   ja: {
     message: {
       hello: 'こんにちは、世界'
