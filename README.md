@@ -1,7 +1,12 @@
 # WorksAndDays
 ```
-VueJS project
+VueJS ( @vue/cli version 3.3.x ) project:
 ```
++ "vue": "^2.5.22"
++ "vue-router": "^3.0.2"
++ "vuex": "^3.1.0"
++ "vue-i18n": "^8.7.0"
+
 ## Project setup
 ```
 yarn install
@@ -16,7 +21,7 @@ yarn dev
 ```
 yarn build
 ```
-## Project serve from /dist folder after 'build'
+## Project serve from ./dist folder after 'build'
 ```
 yarn install
 ```
