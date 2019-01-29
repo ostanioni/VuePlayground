@@ -17,7 +17,7 @@ export default [
           {
               "id":"sofac-1-2",
               "No":"2",
-              "caption":"Principles of Algorithm Analysis",
+              "caption":"Principles of Algorithm Analysis ",
               "chapters":[
                   "Implementation and Empirical Analysis",
                   "Analysis of Algorithms",
