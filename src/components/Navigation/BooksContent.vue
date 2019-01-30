@@ -1,12 +1,13 @@
 <template>
 <!-- 
   Contents
-    Parts
-      Chapters
-        Paragraph  &#167;
+    Part
+      Chapter
+        Paragraphs (Lazy)  &#167;
+      Exercises (Lazy)
 -->
 <div id="contents-wrapper">
-  <p v-for="part in Contents" :key="part.No">
+  <p v-for="Part in Contents" :key="part.No">
     <img src="/statics/svg/arrowRlS.svg" alt="" class="ar" :class="{'ar-transform': show.trademark}">
     <span @click="showList"> {{ part.header }} </span>
     <transition name="fade" mode="out-in" appear>
