@@ -1,11 +1,11 @@
-# WorksAndDays
+# VuePlayground
 ```
-VueJS ( @vue/cli version 3.3.x ) project:
+Vue 2.6.6 ( @vue/cli version 3.4.1 ) project:
 ```
-+ "vue": "^2.5.22"
++ "vue": "^2.6.6"
 + "vue-router": "^3.0.2"
 + "vuex": "^3.1.0"
-+ "vue-i18n": "^8.7.0"
++ "vue-i18n": "^8.8.2"
 
 ## Project setup
 ```
