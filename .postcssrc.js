@@ -6,8 +6,7 @@ const GridKissParams = {
 }
 const plugins = [
   require('postcss-grid-kiss')({ grid: true, optimize: true, }),
-  require('cssnano')({ preset: [ "advanced", { "discardComments": {"removeAll": true} } ] }),
-  require('autoprefixer')({grid: true}),
+  require('cssnano')({ preset: [ "advanced", { "discardComments": {"removeAll": true} } ] })
 ]
 
 module.exports = {
