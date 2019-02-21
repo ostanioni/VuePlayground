@@ -1,6 +1,7 @@
 # VuePlayground
 ```
-####Vue 2.6.6 ( @vue/cli version 3.4.1 ) project:
+```
+## Vue 2.6.6 ( @vue/cli version 3.4.1 ) project:
 ```
 + "vue": "^2.6.6"
 + "vue-router": "^3.0.2"
