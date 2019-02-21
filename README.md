@@ -30,6 +30,7 @@ Your app is ready to be deployed!
 
 ## Project serve from ./dist folder after 'build'
 ### `yarn serve`
+Serve production version of the application
 
 ## Run your unit tests
 ### `yarn run test:unit`
