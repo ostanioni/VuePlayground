@@ -1,4 +1,4 @@
-# Vue 2.6 playground
+# Vue 2.6 playground (JS)
 
 + "vue": "^2.6.6"
 + "vue-router": "^3.0.2"
