@@ -1,4 +1,4 @@
-export default [      
+let ContentsRus = [      
     {   "part": "Анализ",
         "chapters":[
             {   "caption":"Введение",
@@ -281,3 +281,4 @@ export default [
         ],
     }
 ]
+export { ContentsRus };

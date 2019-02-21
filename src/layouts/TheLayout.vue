@@ -1,6 +1,7 @@
 <script>
 import backToTop from '@/components/top.vue'
 import cnvs from '@/components/Canvas2D/cnvs.vue'
+import BooksContent from '@/components/Navigation/BooksContent.vue'
 // import C from '@/components/Code/C.vue'
 // import TheTable from '@/components/TheTable.vue'
 export default {
@@ -12,6 +13,7 @@ export default {
   components: {
     backToTop,
     cnvs,
+    BooksContent
     // C,
     // TheTable
   }
@@ -20,7 +22,9 @@ export default {
 <template>
   <div id="app">
     <header></header>
-    <main></main>
+    <main>
+      <BooksContent/>
+    </main>
     <footer></footer>
 
   </div>
@@ -35,7 +39,7 @@ export default {
   grid-template-columns: 90px auto auto;
   grid-template-rows: ;
   font-family: 'Roboto', sans-serif;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .cc {
   font-family: 'Lobster', cursive;
