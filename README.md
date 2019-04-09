@@ -1,10 +1,9 @@
 # Vue 2.6 playground (JS)
 
-+ "vue": "^2.6.6"
-+ "vue-router": "^3.0.2"
++ "vue": "^2.6.10"
++ "vue-router": "^3.0.3"
 + "vuex": "^3.1.0"
-+ "vue-i18n": "^8.8.2"
-+ ...
++ "vue-i18n": "^8.10.2"
 
 # Available Scripts
 ## Instalation
