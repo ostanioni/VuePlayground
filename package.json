@@ -31,7 +31,7 @@
     "cssnano-preset-advanced": "^4.0.7",
     "http-server": "^0.11.1",
     "katex": "^0.10.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "node-sass": "^4.12.0",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-grid-kiss": "^2.1.2",
